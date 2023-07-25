@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WealthWise</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- css e bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Scripts -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!--Javascrpit-->
+  <script src="js/scripts.js"></script>
+
+  
+</head>
+
+<body>
+  <header>    <!-------------------------- Navbar ---------------------------------->
+     <section class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="ww-logo" href="index.html">
+          <img id="logo" src="img/wealthwise - logo.svg" alt="wealthwise">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <section class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <section class="navbar-nav">
+            <a class="nav-item nav-link" id="menu-inicio" href="index.html">Início</span></a>
+            <a class="nav-item nav-link" id="menu-empresa" href="index.html">A empresa</a>
+            <a class="nav-item nav-link" id="menu-serviços" href="index.html">Serviços financeiros</a>
+            <a class="nav-item nav-link" id="menu-contatos" href="index.html">Contato</a>
+          </section>
+        </section>
+      </nav>
+    </section>
+  </header>  
+
+  <main>      <!-------------------------- Início Main ---------------------------------->
+          
+    <!-------------------------- slider---------------------------------->
+    <section class="container-fluid">
+      <section id="mainSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1"></li>
+          <li data-target="#mainSlider" data-slide-to="2"></li>
+        </ol>
+        <section class="carousel-inner">
+          <section class="carousel-item active">
+            <img src="img/banner 1 - tamanho original.jpg" class="d-block w-100" alt="Cotações em tempo real">
+            <section class="carousel-caption d-md-block">
+              <h2>Carteiras recomendadas </h2>
+              <p>As indicações dos nossos analistas na sua mão</p>
+              <a href="carteiras recomendadas.html" class="main-btn">Ver relatórios</a>
+            </section>
+          </section>
+          <section class="carousel-item">
+            <img src="img/banner 2 - redimensionada.jpg" class="d-block w-100" alt="Cotações em tempo real">
+            <section class="carousel-caption d-md-block">
+              <h2>Cotações</h2>
+              <p>Acompanhe o preço dos seus ativos em tempo real</p>
+              <a href="cotações.html" class="main-btn">Ver cotações</a>
+            </section>
+          </section>
+          <section class="carousel-item">
+            <img src="img/criptos - redimensionada.jpg" class="d-block w-100" alt="Notícias">
+            <section class="carousel-caption d-md-block">
+              <h2>Criptos</h2>
+              <p>Fique por dentro do que acontece no mundo das criptomoedas.</p>
+              <a href="cripto.html" class="main-btn">Ver notícias</a>
+            </section>
+          </section>
+        </section>
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </section>
+
+      <section class="container mt-5">
+        <!-------------------------- Conteúdo ---------------------------------->
+        
+        <h1>Nossas Carteiras</h1>
+        <section class="row mt-4">
+          <section class="col-md-6">
+            <section class="card">
+              <section class="cabeçalho">
+                Pagadora de Dividendos
+              </section>
+              <section class="conteudo">
+                <h5 class="titulo-card">Empresa VALE3</h5>
+                <p>Ação: VALE3</p>
+                <p>Dividendo: R$ 2,00 por ação</p>
+                <p>Análise: A empresa VALE33 tem uma política de distribuição de dividendos sólida e consistente, com um histórico de pagamento de dividendos acima da média do mercado.</p>
+                <canvas id="chartDividends" width="400" height="300"></canvas>
+              </section>
+            </section>
+          </section>
+    
+          <section class="col-md-6">
+            <section class="card">
+              <section class="cabeçalho">
+                 Small Cap
+              </section>
+              <section class="conteudo">
+                <h5 class="titulo-card">Empresa VERA</h5>
+                <p>Ação: VER4</p>
+                <p>Potencial de Crescimento: Alto</p>
+                <p>Análise: A empresa VER4 é uma small cap com grande potencial de crescimento devido a novos produtos e expansão para mercados internacionais.</p>
+                <canvas id="chartGrowth" width="400" height="300"></canvas>
+              </section>
+            </section>
+          </section>
+        </section>
+    
+        <section class="row mt-4">
+          <section class="col-md-6">
+            <section class="card">
+              <section class="cabeçalho">
+                Fundo de Investimento Imobiliário (FII's)
+              </section>
+              <section class="conteudo">
+                <h5 class="titulo-card">FII ABCDE</h5>
+                <p>Tipo: Logística</p>
+                <p>Rendimento Mensal: 0,8%</p>
+                <p>Análise: O FII ABCDE é um fundo imobiliário focado em ativos logísticos bem localizados, com alta taxa de ocupação e rendimentos consistentes.</p>
+                <canvas id="chartYield" width="400" height="300"></canvas>
+              </section>
+            </section>
+          </section>
+    
+          <section class="col-md-6">
+            <section class="card">
+              <section class="cabeçalho">
+                Títulos Públicos
+              </section>
+              <section class="conteudo">
+                <h5 class="titulo-card">Tesouro IPCA+</h5>
+                <p>Vencimento: 2030</p>
+                <p>Taxa de Rendimento: 5,5% ao ano + IPCA</p>
+                <p>Análise: Os títulos públicos do Tesouro IPCA+ são uma opção interessante para proteção contra a inflação, com uma taxa de rendimento real atrativa.</p>
+                <canvas id="chartInflation" width="400" height="300"></canvas>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+<!-------------------------- Rodapé ---------------------------------->
+    <footer>
+      <section id="area-contatos">
+        <section class="container">
+          <section class="row">
+            <section class="col-md-12">
+              <h3 class="titulo">Entre em contato conosco</h3>
+            </section>
+
+            <section class="col-md-4 caixa-contatos">
+              <i class="fas fa-phone"></i>
+              <p><span class="contact-tile">Ligue para:</span> (54)99999-9999</p>
+              <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+            </section>
+
+            <section class="col-md-4 caixa-contatos">
+              <i class="fas fa-envelope"></i>
+              <p><span class="contact-tile">Envie um email:</span> contato@wealthwise.com.br</p>
+            </section>
+
+            <section class="col-md-4 caixa-contatos">
+              <i class="fas fa-map-marker-alt"></i>
+              <p><span class="contact-tile">Endereço:</span> Av. Main Street 1214</p>
+            </section>
+
+            <section class="col-md-6" id="caixa-msg">
+              <p>Ou nos deixe uma mensagem:</p>
+            </section>
+  
+            <section class="col-md-6" id="forms-contato">
+              <form action="">
+                 class="form-control" placeholder="Nome" name="name">
+                 class="form-control" placeholder="E-mail" name="email">
+                 class="form-control" placeholder="Assunto" name="subject">
+                <textarea class="form-control" rows="3" placeholder="Digite sua mensagem!" name="message"></textarea>
+  
+                <section class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Aceito receber notícias e e-mails
+                  </label>
+                </section>
+                <input type="submit" class="main-btn">
+              </form>
+            </section>
+          </section>
+        </section>
+      </section>
+  
+      <section id="final">
+        <section class="container">
+          <section class="row">
+            <section class="col-md-12">
+              <p>Otávio Rizzatti Tedesco - 2023 - Feito para fins estudantis</p>
+            </section>
+          </section>
+        </section>
+      </section>
+    </footer>
+  
+  <script>
+    // Gráfico de Dividendos
+    var ctxDividends = document.getElementById('chartDividends').getContext('2d');
+    var chartDividends = new Chart(ctxDividends, {
+      type: 'line',
+      data: {
+        labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun'],
+        datasets: [{
+          label: 'Dividendos (R$)',
+          data: [2.5, 2.2, 2.8, 2.6, 2.9, 3.2],
+          backgroundColor: 'rgba(75, 192, 192, 0.2)',
+          borderColor: 'rgba(75, 192, 192, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: {
+              callback: function(value, index, values) {
+                return value.toFixed(2);
+              }
+            }
+          }
+        }
+      }
+    });
+
+    // Gráfico de Crescimento
+    var ctxGrowth = document.getElementById('chartGrowth').getContext('2d');
+    var chartGrowth = new Chart(ctxGrowth, {
+      type: 'line',
+      data: {
+        labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun'],
+        datasets: [{
+          label: 'Crescimento (%)',
+          data: [0.5, 0.8, 0.6, 0.9, 1.2, 1.5],
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'rgba(255, 99, 132, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: {
+              callback: function(value, index, values) {
+                return value.toFixed(2) + '%';
+              }
+            }
+          }
+        }
+      }
+    });
+
+    // Gráfico de Rendimento de FII's
+    var ctxYield = document.getElementById('chartYield').getContext('2d');
+    var chartYield = new Chart(ctxYield, {
+      type: 'line',
+      data: {
+        labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun'],
+        datasets: [{
+          label: 'Rendimento Mensal (%)',
+          data: [0.8, 0.9, 0.7, 0.6, 0.8, 0.9],
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: {
+              callback: function(value, index, values) {
+                return value.toFixed(2) + '%';
+              }
+            }
+          }
+        }
+      }
+    });
+
+    // Gráfico de Inflação
+    var ctxInflation = document.getElementById('chartInflation').getContext('2d');
+    var chartInflation = new Chart(ctxInflation, {
+      type: 'line',
+      data: {
+        labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun'],
+        datasets: [{
+          label: 'Inflação (%)',
+          data: [0.3, 0.4, 0.5, 0.3, 0.4, 0.5],
+          backgroundColor: 'rgba(255, 206, 86, 0.2)',
+          borderColor: 'rgba(255, 206, 86, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: {
+              callback: function(value, index, values) {
+                return value.toFixed(2) + '%';
+              }
+            }
+          }
+        }
+      }
+    });
+  </script>
+ 
+
+</body>
+</html>

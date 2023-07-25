@@ -1,0 +1,323 @@
+
+
+/*---------------------------------------- geral--------------------------------------------------------- */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p, li {
+  color: #444;
+  font-size: 14px;
+}
+
+/* -------------------------------Barra de navegação--------------------------------------------------------- */
+header, .navbar {
+  background-color: #6c7c83;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 150px;
+}
+
+.ww-logo {
+  padding: 0;
+  color: #FFF;
+}
+
+.ww-logo:hover {
+  color: #FFF;
+}
+
+#navbar-links a {
+  color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid #FFF;
+}
+
+/* ------------------------------Slider--------------------------------------------------------- */
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+}
+
+.main-btn {
+  background-color: #65DAF9;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #3EC1D5;
+}
+
+.carousel-indicators .active {
+  background-color: #65DAF9;
+}
+
+/* ------------------------------Sobre a empresa ---------------------------------------------------------*/
+
+#sobre-a-empresa{
+  background-color: #F9F9F9;
+}
+
+.titulo {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.titulo::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 43%;
+}
+
+.sub-titulo {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*   -------------------------------lista-------------------------------------------------------------- */
+#lista1 {
+  list-style: none;
+  padding-left: 0;
+}
+
+#lista1 li {
+  line-height: 30px;
+}
+
+#lista1 i {
+  color: #65DAF9;
+  margin-right: 15px;
+}
+
+/* ----------------------------------Serviços--------------------------------------------------------- */
+
+.caixa-serviços {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.caixa-serviços i, .caixa-serviços h4 {
+  transition: .5s;
+}
+
+.caixa-serviços i {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.caixa-serviços h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.caixa-serviços:hover > i, .caixa-serviços:hover > h4 {
+  color: #65DAF9;
+}
+
+/* -------------------------------------Footer ---------------------------------------------------------*/
+
+#area-contatos {
+  text-align: center;
+}
+
+.caixa-contatos {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #3EC1D5;
+}
+
+.caixa-contatos i {
+  color: #444;
+  border: solid 1px #444;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.caixa-contatos p {
+  font-size: 16px;
+}
+
+.contact-tile {
+  font-weight: bold;
+  color: #3EC1D5;
+}
+
+#caixa-msg p {
+  font-size: 22px;
+}
+
+
+#forms-contato input[type="text"], #forms-contato textarea {
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+#forms-contato .main-btn {
+  width: 120px;
+  height: 50px;
+}
+
+#forms-contato .main-btn:hover {
+  color: #3EC1D5;
+}
+
+/* ----------------------------------final ---------------------------------------------------------*/
+
+#final {
+  background-color: #F1F1F1;
+}
+
+#final .container {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#final .container p {
+  margin-bottom: 0;
+}
+
+.form-check{
+ margin-bottom: 10px;
+
+}
+
+/* ----------------------------------FINAL PÁGINA INDEX ---------------------------------------------------------*/
+
+
+
+/*-------------------------------- OUTRAS PÁGINAS-------------------------*/
+
+.jumbotron {
+  background-color: rgb(182, 175, 175);
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+h1 {
+  font-size: 3rem;
+  color: black;
+}
+.h2-criptos {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.h2-planejamento {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.h2-edu {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.canvas {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tabela_ações{
+  text-align: center;
+}
+
+
+
+/*--------------------------- responsivo -----------------------------------------------*/
+@media(max-width: 768px) {
+  
+  /* geral */
+  .container {
+    padding: 20px 0;
+  }
+  
+  /* slider */
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 28px;
+  }
+
+  #mainSlider .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+  
+  #about-area img {
+    margin-top: 100px;
+  }
+  
+
+}
+
+

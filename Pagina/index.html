@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WealthWise</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- css e bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!--Javascrpit-->
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <header> <!---------------------------Navbar-------------------------->  
+    <section class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="ww-logo" href="index.html">
+          <img id="logo" src="img/wealthwise - logo.svg" alt="wealthwise">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <section class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <section class="navbar-nav">
+            <a class="nav-item nav-link" id="menu-inicio" href="#">Início</span></a>
+            <a class="nav-item nav-link" id="menu-empresa" href="#">A empresa</a>
+            <a class="nav-item nav-link" id="menu-serviços" href="#">Serviços financeiros</a>
+            <a class="nav-item nav-link" id="menu-contatos" href="#">Contato</a>
+          </section>
+        </section>
+      </nav>
+    </section>
+  </header>
+  <main> <!-----------------------Inicio do main----------------------------->
+
+<!-------------------------------- slider ------------------------------>
+
+    <section class="container-fluid">
+      <section id="mainSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1"></li>
+          <li data-target="#mainSlider" data-slide-to="2"></li>
+        </ol>
+
+        <section class="carousel-inner">
+          <section class="carousel-item active">
+            <img src="img/banner 1 - tamanho original.jpg" class="d-block w-100" alt="Cotações em tempo real">
+            <section class="carousel-caption d-md-block">
+              <h2>Carteiras recomendadas </h2>
+                <p>As indicações dos nossos analistas na sua mão</p>
+                <a href="carteiras recomendadas.html" class="main-btn">Ver relatórios</a>
+            </section>
+          </section>
+
+          <section class="carousel-item">
+            <img src="img/banner 2 - redimensionada.jpg" class="d-block w-100" alt="Cotações em tempo real">
+            <section class="carousel-caption d-md-block">
+              <h2>Cotações</h2>
+                <p>Acompanhe o preço dos seus ativos em tempo real</p>
+                <a href="cotações.html" class="main-btn">Ver cotações</a>
+            </section>
+          </section>
+
+          <section class="carousel-item">
+            <img src="img/criptos - redimensionada.jpg" class="d-block w-100" alt="Notícias">
+            <section class="carousel-caption d-md-block">
+              <h2>Criptos</h2>
+                <p>Fique por dentro do que acontece no mundo das criptomoedas.</p>
+                <a href="cripto.html" class="main-btn">Ver notícias</a>
+            </section>
+          </section>
+        </section>
+
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </section>
+
+      <!------------------------- Sobre a empresa -------------------------->
+      <section id="sobre-a-empresa">
+        <section class="container">
+          <section class="row">
+            <section class="col-12">
+              <h3 class="titulo">Sobre a WealthWise</h3>
+            </section>
+            <section class="col-md-6">
+              <img class="img-fluid" src="img/tablet redimensionada.jpg" alt="tablet sobre a mesa">
+            </section>
+
+            <section class="col-md-6">
+              <h3 class="sub-titulo">Uma agência que pensa no futuro</h3>
+              <p>Na WealthWise, somos uma empresa visionária que está sempre pensando no futuro das finanças.</p>
+              <p>Nosso objetivo é ajudar nossos clientes a alcançar seu pleno potencial financeiro, oferecendo soluções
+                adaptadas às suas necessidades e objetivos individuais.</p>
+              
+                <!--------------------------lista ---------------------------------->
+                <p>Nossos diferenciais:</p>
+                <ul id="lista1">
+                <li><i class="fas fa-check"></i> Utilização de Inteligência Artificial nas nossas análises</li>
+                <li><i class="fas fa-check"></i> Aconselhamento Especializado</li>
+                <li><i class="fas fa-check"></i> Acesso a Oportunidades de Investimento</li>
+                <li><i class="fas fa-check"></i> Análise de Risco e Avaliação</li>
+                <li><i class="fas fa-check"></i> Jogo do Bicho</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+      </section>
+
+      <!-------------------------- Serviços ---------------------------------->
+      <section id="serviços">
+        <section class="container">
+          <section class="row">
+            <section class="col-12">
+              <h3 class="titulo">Nossos Serviços</h3>
+            </section>
+
+            <section class="col-md-4 caixa-serviços">
+              <i class="fa fa-book" aria-hidden="true"></i>
+              <h4> <a target="_blank" href="educação financeira.html"> Educação Financeira</a></h4>
+              <p>Programas educacionais e recursos para ajudar os clientes a melhorar sua literacia financeira.</p>
+            </section>
+
+            <section class="col-md-4 caixa-serviços">
+              <i class="fa fa-calculator" aria-hidden="true"></i>
+              <h4> <a target="_blank" href="planejamento tributario.html"> Planejamento Tributário </a></h4>
+              <p>Auxilia os clientes na minimização da carga tributária por meio de estratégias legais e eficientes.</p>
+            </section>
+
+            <section class="col-md-4 caixa-serviços">
+              <i class="fa fa-credit-card" aria-hidden="true"></i>
+              <h4>Cartão de Crédito</h4>
+              <p>As menores taxas do mercado.</p>
+            </section>
+
+            <section class="col-md-4 caixa-serviços">
+              <i class="fa fa-usd" aria-hidden="true"></i>
+              <h4>Gestão de Patrimônio</h4>
+              <p>Aconselhamento sobre alocação de ativos, planejamento sucessório, gestão de riscos, planejamento
+                tributário e estratégias de proteção patrimonial.</p>
+            </section>
+
+            <section class="col-md-4 caixa-serviços">
+              <i class="fa fa-bar-chart" aria-hidden="true"></i>
+              <h4>Investimentos</h4>
+              <p>Serviços de consultoria em investimentos, ajudando os clientes a identificar oportunidades de
+                investimento alinhadas com seus objetivos financeiros.</p>
+            </section>
+
+            <section class="col-md-4 caixa-serviços">
+              <i class="fa fa-money" aria-hidden="true"></i>
+              <h4>Empréstimos e Financiamentos</h4>
+              <p>Orientação e assistência na obtenção de empréstimos, financiamentos e linhas de crédito.</p>
+            </section>
+          </section>
+        </section>
+      </section>
+  </main>
+  <!-------------------------- Rodapé ------------------------------------------>
+
+  <footer>
+    <section id="area-contatos">
+      <section class="container">
+        <section class="row">
+          <section class="col-md-12">
+            <h3 class="titulo">Entre em contato conosco</h3>
+          </section>
+
+          <section class="col-md-4 caixa-contatos">
+            <i class="fas fa-phone"></i>
+            <p><span class="contact-tile">Ligue para:</span> (54)99999-9999</p>
+            <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+          </section>
+
+          <section class="col-md-4 caixa-contatos">
+            <i class="fas fa-envelope"></i>
+            <p><span class="contact-tile">Envie um email:</span> contato@wealthwise.com.br</p>
+          </section>
+
+          <section class="col-md-4 caixa-contatos">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><span class="contact-tile">Endereço:</span> Av. Main Street 1214</p>
+          </section>
+
+          <section class="col-md-6" id="caixa-msg">
+            <p>Ou nos deixe uma mensagem:</p>
+          </section>
+
+          <section class="col-md-6" id="forms-contato">
+            <form action="">
+              <input type="text" class="form-control" placeholder="Nome" name="name">
+              <input type="text" class="form-control" placeholder="E-mail" name="email">
+              <input type="text" class="form-control" placeholder="Assunto" name="subject">
+              <textarea class="form-control" rows="3" placeholder="Digite sua mensagem!" name="message"></textarea>
+
+              <section class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Aceito receber notícias e e-mails
+                </label>
+              </section>
+              <input type="submit" class="main-btn">
+            </form>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    
+    <section id="final">
+      <section class="container">
+        <section class="row">
+          <section class="col-md-12">
+            <p>Otávio Rizzatti Tedesco - 2023 - Feito para fins estudantis</p>
+          </section>
+        </section>
+      </section>
+    </section>
+  </footer>
+
+</body>
+
+</html>
